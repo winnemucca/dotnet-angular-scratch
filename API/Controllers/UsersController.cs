@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Storage;
 
 namespace API.Controllers;
 
-[Authorize]
+// [Authorize]
 public class UsersController(DataContext context): BaseApiController
 {
     [AllowAnonymous]
